@@ -1,5 +1,4 @@
 # Repository SaaS Project Kelas 12 SMK
-------------------------------------------
 
 ```markdown
 Repository untuk menyimpan tugas - tugas atau projek SaaS (Software As A Service).
