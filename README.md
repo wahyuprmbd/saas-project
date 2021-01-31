@@ -2,8 +2,7 @@
 ------------------------------------------
 
 ```markdown
-Repository untuk menyimpan tugas - tugas atau projek **SaaS** **__(Software As A Service)__**.
+Repository untuk menyimpan tugas - tugas atau projek SaaS (Software As A Service).
 ```
-```markdown
-Projek utama yang dibuat adalah **Membuat aplikasi big data.** Aplikasi tersebut dikerjakan *secara berkelompok* dan nama aplikasinya adalah `Program Analisa Cuaca Panas dan Dingin Menggunakan Apache Hadoop dan Java`.
-```
+
+> Projek utama yang dibuat adalah **Implementasi Aplikasi Big Data.** Aplikasi tersebut dikerjakan *secara berkelompok* dan nama aplikasinya adalah `Program Analisa Cuaca Panas dan Dingin Menggunakan Apache Hadoop dan Java`.
