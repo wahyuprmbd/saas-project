@@ -1,7 +1,6 @@
 # Program Analisa Cuaca Panas dan Dingin Menggunakan `Apache Hadoop` dan `Java`
 
-## Pre-requisite
----------------
+## 1. Pre-requisite
 ```markdown
 Sebelum Anda memulai menjalankan projek kami ini, ada beberapa hal penting yang harus Anda persiapkan, diantaranya adalah:
 ```
