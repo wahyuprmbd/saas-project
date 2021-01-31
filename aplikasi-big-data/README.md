@@ -6,7 +6,7 @@ Sebelum Anda memulai menjalankan projek kami ini, ada beberapa hal penting yang 
 ```
 
 * Sudah menginstal **`Git`.** Kalau belum, Anda bisa menginstall nya pada link [di sini](https://git-scm.com/downloads).
-* Sudah menginstal **`software IDE`** untuk Java, seperti [Eclipse](https://www.eclipse.org/downloads/), [Netbeans](https://netbeans.org/downloads/8.2/rc/)), atau [IntelliJ IDEA](https://www.jetbrains.com/idea/download/).
+* Sudah menginstal **`software IDE`** untuk Java, seperti [Eclipse](https://www.eclipse.org/downloads/), [Netbeans](https://netbeans.org/downloads/8.2/rc/), atau [IntelliJ IDEA](https://www.jetbrains.com/idea/download/).
 * Sudah menginstall **`jdk versi 8` ke atas.** *Saya menyarankan Anda untuk mengunduh **jdk versi 11**.*
    > Bagi Anda user **Linux,** langsung saja install **jdk** versi 8 ke atas dengan menggunakan perintah berikut ini di **Terminal** : **`$ sudo apt-get install openjdk-11-jdk`.**
 
