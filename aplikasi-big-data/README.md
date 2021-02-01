@@ -26,8 +26,7 @@ Sebelum Anda memulai menjalankan projek kami ini, ada beberapa hal penting yang 
   > **NCDC NOAA (National CLimatic Data Center) adalah sebuah data center dari USA yang menyediakan kumpulan dataset histori cuaca dari berbagai wilayah.**
 
   > Di sini, kami menggunakan dataset cuaca dari wilayah **Edinburg, Texas, USA** tanggal **30 Januari 2021.** Bagi Anda yang ingin mengunduhnya, Anda bisa klik tautan [**_di sini_**](https://link-google-drive).
-![Java & Hadoop Version](/home/hadoop/Pictures/java & hadoop version.png)
-  
+
 
 TO DO LIST :
 - [x] Membuat repository SaaS Project
