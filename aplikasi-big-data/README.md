@@ -27,6 +27,10 @@ Sebelum Anda memulai menjalankan projek kami ini, ada beberapa hal penting yang 
 
   > Di sini, kami menggunakan dataset cuaca dari wilayah **Edinburg, Texas, USA** tanggal **30 Januari 2021.** Bagi Anda yang ingin mengunduhnya, Anda bisa klik tautan [**_di sini_**](https://link-google-drive).
 
+  Gambar di bawah ini menunjukkan apabila kita sudah berhasil menginstal **Java** dan **Hadoop**.
+![java-and-hadoop-versions](https://user-images.githubusercontent.com/78311798/106405728-cab2ef00-6469-11eb-9b71-b69e7fffb2d2.png)
+
+
 
 TO DO LIST :
 - [x] Membuat repository SaaS Project
