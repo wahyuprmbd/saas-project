@@ -158,4 +158,5 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
   - Bagus Fathoni 
   - Dafa Abdurrohman
   - Mahesa Adiputra
+  - Ramayana Eka Putra
   - Wahyu Priambodo
