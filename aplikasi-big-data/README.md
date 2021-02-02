@@ -4,8 +4,8 @@
 
 
 ### Teknologi yang kami gunakan :
-1. Apache Hadoop sebagai Program MapReduce, dan 
-2. Java sebagai Back-end yang memberikan instruksi ke Hadoop
+1. **Apache Hadoop (Big Data Framework)** sebagai **_Program MapReduce_**, dan 
+2. **Java (Programming Language)** sebagai **_Back-end_** yang memberikan instruksi ke **Hadoop.**
 
 ## Pre-requisite
 
@@ -22,17 +22,17 @@ $ sudo apt-get install openjdk-11-jdk
 ```
    > Bagi Anda user **Windows,** silahkan unduh `openjdk versi 8 ke atas` pada link [**_di sini_**](https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_windows-x64_bin.zip)**.**
 - [x] Sudah menginstall **Apache Hadoop.** Jika belum, Anda dapat mengunduh **_binary file_** **_Hadoop_** nya melalui link [**_di sini_**](https://downloads.apache.org/hadoop/common/hadoop-3.2.2/hadoop-3.2.2.tar.gz). *Kami menyarankan Anda untuk menggunakan versi **Hadoop 3.2.2***
-  > Untuk tutorial instalasi dan konfigurasi **Apache Hadoop** pada **Ubuntu 20.04** sudah kami sediakan dalam bentuk PDF. **_Download file here :_** [📖](https://link-google-drive)
+  > Untuk tutorial instalasi dan konfigurasi **Apache Hadoop** pada **Ubuntu 20.04** sudah kami sediakan dalam bentuk PDF. **_Download file here :_** [📖](https://drive.google.com/file/d/1LYi4JCE0B92ifc2FemHYV2llulQSwHIu/view?usp=sharing)
 
 ![java-and-hadoop-versions](https://user-images.githubusercontent.com/78311798/106405728-cab2ef00-6469-11eb-9b71-b69e7fffb2d2.png)
 
-- [x] Sudah mengunduh **_Jar Hadoop Common_** pada link [**_di sini_**](https://https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common). *Pastikan Anda mengunduh versi **Jar** nya sesuai dengan versi **Hadoop** Anda*.
+- [x] Sudah mengunduh **_Jar Hadoop Common_** pada link [**_di sini_**](https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common). *Pastikan Anda mengunduh versi **Jar** nya sesuai dengan versi **Hadoop** Anda*.
   - Bagi Anda user **Linux** dan Anda juga ingin menggunakan **Hadoop Common versi 3.2.2**, Anda dapat menggunakan perintah berikut ini: 
 
 ```shell  
 $ wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.2/hadoop-common-3.2.2.jar
 ```
-- [x] Sudah mengunduh **_Jar Hadoop MapReduce Core_** pada link [**_di sini_**](https://https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core). *Pastikan Anda mengunduh versi **Jar** nya sesuai dengan versi **Hadoop** Anda*.
+- [x] Sudah mengunduh **_Jar Hadoop MapReduce Core_** pada link [**_di sini_**](https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core). *Pastikan Anda mengunduh versi **Jar** nya sesuai dengan versi **Hadoop** Anda*.
   - Bagi Anda user **Linux** dan Anda juga ingin menggunakan **Hadoop MapReduce Client Core versi 3.2.2**, Anda dapat menggunakan perintah berikut ini:
 
 ```shell
@@ -139,7 +139,7 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 
   - ### **Unduh File Output Hasil dari Pemrosesan Dataset**
       * Pergi ke **_HDFS directory_** tempat dimana *result file* Anda disimpan. *Kalau kami, ada di direktori: **`/user/hadoop/result/`***.
-        > Untuk mengakses **_HDFS directory_**, Anda bisa mengakses **`localhost:9870`** pada web browser, kemudian pergi ke **`Utilities/Browse the file system`** untuk melihat *result file* Anda disimpan.
+      * Untuk mengakses **_HDFS directory_**, Anda bisa mengakses **`localhost:9870`** pada web browser, kemudian pergi ke **`Utilities/Browse the file system`** untuk melihat *result file* Anda disimpan.
       * Setelah itu, silahkan Anda unduh file **_`part-r-00000`_**
 
 ![12-go-to-result-directory-in-hadoop-hdfs](https://user-images.githubusercontent.com/78311798/106545327-cbb45100-653b-11eb-8f3d-dde1f102671d.PNG)
