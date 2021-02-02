@@ -41,7 +41,7 @@ $ wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.2/hado
 ![download-jar-hadoop-common-and-hadoop-mapreduce-core](https://user-images.githubusercontent.com/78311798/106408754-a78c3d80-6471-11eb-943f-c222bbb2961a.png)
 
 - [x] Sudah menyediakan sebuah dataset histori cuaca dari sebuah wilayah. Jika belum, Anda bisa mengunduhnya dari link NCDC NOAA berikut ini: [**_ftp://ftp.ncdc.noaa.gov/pub/data/uscrn/products/daily01/2021_**](ftp://ftp.ncdc.noaa.gov/pub/data/uscrn/products/daily01/2021/).
-  *Pilih salah satu dataset saja untuk dijadikan sebagai bahan analisa cuaca panas dan dingin yang tejadi pada wilayah tersebut*.
+  *Pilih salah satu dataset saja untuk dijadikan bahan analisa cuaca panas dan dingin yang terjadi pada wilayah tersebut*.
   > **NCDC NOAA (National CLimatic Data Center) adalah sebuah data center dari USA yang menyediakan kumpulan dataset histori cuaca dari berbagai wilayah.**
 
   > Di sini kami menggunakan dataset cuaca dari negara **Palestina** mulai dari tanggal **1 - 29 Januari 2021.** Bagi Anda yang ingin mengunduh file dataset tersebut, Anda bisa klik tautan [**_di sini_**](https://drive.google.com/file/d/1hdyyUihThvIiZbNxEAdf96VrZ8uOA-1b/view?usp=sharing).
