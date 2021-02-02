@@ -50,12 +50,12 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 `**
 > **Pastikan Anda sudah membaca dokumentasi Tutorial Instalasi Hadoop yang sudah saya berikan di atas.**
 
-  1. ### `Unduh Project Kami Menggunakan Git`
+  - ### `Unduh Projek Kami Menggunakan Git`
       * Pertama, Anda harus mengunduh projek kami dengan menggunakan **`git clone`** ke dalam komputer/laptop Anda dengan menggunakan perintah 
         > $ git clone https://github.com/wahyuprmbd/saas-project.git
       * Tetapi, jika Anda tidak menginstal **git** di komputer/laptop, Anda bisa mengunjungi projek kami yang ada di github dan mengunduh projek kami dalam bentuk **ZIP**. Klik [**_di sini_**](https://github.com/wahyuprmbd/saas-project) untuk menuju ke halaman github projek kami. 
   
-  2. ### `Memulai Membuat Projek Java di Eclipse`
+  - ### `Memulai Membuat Projek Java di Eclipse`
       * Buka aplikasi **`Eclipse`** untuk memulai development aplikasi big datanya. 
       * Buat **`Java Project`** baru dengan cara :
         * Klik **`icon New`** pada bagian pojok kiri *top bar* >> Berikan nama projek Java nya *(nama projek bebas)* dan pilih opsi **`JRE nya sesuai dengan versi jdk Anda.`**
@@ -73,7 +73,7 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 ![4-add-external-jars](https://user-images.githubusercontent.com/78311798/106542990-72e2b980-6537-11eb-8d0a-d22a9c5fa3bd.PNG)
 ![5-code-view](https://user-images.githubusercontent.com/78311798/106543127-b63d2800-6537-11eb-9e4b-ba3d90b25812.PNG)
 
-  3. ### `Eksport Projek Java Anda Menjadi File Jar`
+  - ### `Eksport Projek Java Anda Menjadi File Jar`
       * Setelah Anda menyalin semua *source code* yang ada di dalam file **_`TemperatureMaxMin.java`_**, export **`Java Project`** Anda menjadi file **Jar** dengan cara :
         * Klik kanan **`Nama Java Project`** Anda >> **`Export`** >> **`Java`** >> **`Jar File`** >> Tentukan lokasi dimana file **Jar** Anda akan disimpan >> **`Next`** >> **`Next`** >> Pilih **`Main Class`** yang ada di dalam **`Java Package`** Anda.
 
@@ -81,7 +81,7 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 ![7-select-destionation-path-to-store-the-jar-file](https://user-images.githubusercontent.com/78311798/106543692-cbff1d00-6538-11eb-8f7a-9bbc1186f259.PNG)
 ![8-export-jar-file-finished-with-warnings](https://user-images.githubusercontent.com/78311798/106543942-50ea3680-6539-11eb-9db3-c3c8da4e6bd3.PNG)
 
-  4. ### `Menjalankan Hadoop Daemons`
+  - ### `Menjalankan Hadoop Daemons`
       * Pertama, jalankan **`dfs`** dengan mengetikkan perintah :
         > $ **`cd $HADOOP_HOME/sbin/`**
 
@@ -92,7 +92,7 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 
 ![9-start-hadoop-daemons](https://user-images.githubusercontent.com/78311798/106544228-c2c28000-6539-11eb-9812-c1233cb1f968.PNG)
 
-  5. ### `Pindahkan File Dataset Anda ke Hadoop HDFS`
+  - ### `Pindahkan File Dataset Anda ke Hadoop HDFS`
       * Untuk memindahkan file dataset yang Anda punya, gunakan perintah di bawah ini :
         > $ **`hdfs dfs -put /path/to/dataset-file /destination/path`**
 
@@ -104,7 +104,7 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 
 ![10-put-dataset-file-into-hadoop-hdfs](https://user-images.githubusercontent.com/78311798/106544412-146b0a80-653a-11eb-8e6a-aa12c8414e64.PNG)
 
-  6. ### `Jalankan File Jar Anda Menggunakan Hadoop`
+  - ### `Jalankan File Jar Anda Menggunakan Hadoop`
       * Selanjutnya, Anda tinggal jalankan saja file **jar hasil export sebelumnya** menggunakan **Hadoop Jar** dengan mengikuti perintah di bawah ini :
         > $ **`hadoop jar /path/to/the-jar-file /hdfs/path/to/dataset-file /hdfs/path/to/store/the/output`**
 
@@ -114,7 +114,7 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 ![11-run-the-jar-file-using-hadoop-jar](https://user-images.githubusercontent.com/78311798/106544655-80e60980-653a-11eb-9feb-4d39923aec5c.PNG)
 
 
-  7. ### `Unduh File Output Hasil dari Pemrosesan Dataset`
+  - ### `Unduh File Output Hasil dari Pemrosesan Dataset`
       * Pergi ke **_HDFS directory_** tempat dimana *result file* Anda disimpan. *Kalau kami, ada di direktori: **`/user/hadoop/result/`***.
         > Untuk mengakses **_HDFS directory_**, Anda bisa mengakses **`localhost:9870`** pada web browser, kemudian pergi ke **`Utilities/Browse the file system`** untuk melihat *result file* Anda disimpan.
       * Setelah itu, silahkan Anda unduh file **_`part-r-00000`_**
@@ -122,7 +122,7 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 ![12-go-to-result-directory-in-hadoop-hdfs](https://user-images.githubusercontent.com/78311798/106545327-cbb45100-653b-11eb-8f3d-dde1f102671d.PNG)
 ![13-download-the-result-file](https://user-images.githubusercontent.com/78311798/106545632-5f861d00-653c-11eb-825a-8ad802cf24a8.PNG)
 
-  8. ### `Tampilkan File Output Hasil dari Pemrosesan Dataset`
+  - ### `Tampilkan File Output Hasil dari Pemrosesan Dataset`
       * Setelah Anda mengunduh file output **_`part-r-00000`_**, silahkan buka file tersebut dan lihat sendiri hasilnya.
       * Berikut ini adalah gambar file output **_`(part-r-00000)`_** hasil dari pemrosesan dataset yang kami miliki.
 
