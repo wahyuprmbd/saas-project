@@ -15,8 +15,11 @@
 - [x] Sudah menginstal **`Git`.** Kalau belum, Anda bisa menginstall nya pada link [di sini](https://git-scm.com/downloads).
 - [x] Sudah menginstal **`software IDE`** untuk Java, seperti [Eclipse](https://www.eclipse.org/downloads/), [Netbeans](https://netbeans.org/downloads/8.2/rc/), atau [IntelliJ IDEA](https://www.jetbrains.com/idea/download/).
 - [x] Sudah menginstall **`jdk versi 8` ke atas.** *Saya menyarankan Anda untuk mengunduh **jdk versi 11**.*
-   > Bagi Anda user **Linux,** langsung saja install **jdk** versi 8 ke atas dengan menggunakan perintah berikut ini di **Terminal** : **`$ sudo apt-get install openjdk-11-jdk`.**
+   > Bagi Anda user **Linux,** langsung saja install **jdk** versi 8 ke atas dengan menggunakan perintah berikut ini di **Terminal**: 
 
+```shell
+$ sudo apt-get install openjdk-11-jdk
+```
    > Bagi Anda user **Windows,** silahkan unduh `openjdk versi 8 ke atas` pada link [**_di sini_**](https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_windows-x64_bin.zip)**.**
 - [x] Sudah menginstall **Apache Hadoop.** Jika belum, Anda dapat mengunduh **_binary file_** **_Hadoop_** nya melalui link [**_di sini_**](https://downloads.apache.org/hadoop/common/hadoop-3.2.2/hadoop-3.2.2.tar.gz). *Kami menyarankan Anda untuk menggunakan versi **Hadoop 3.2.2***
   > Untuk tutorial instalasi dan konfigurasi **Apache Hadoop** pada **Ubuntu 20.04** sudah kami sediakan dalam bentuk PDF. **_Download file here :_** [📖](https://link-google-drive)
@@ -26,15 +29,15 @@
 - [x] Sudah mengunduh **_Jar Hadoop Common_** pada link [**_di sini_**](https://https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common). *Pastikan Anda mengunduh versi **Jar** nya sesuai dengan versi **Hadoop** Anda*.
   - Bagi Anda user **Linux** dan Anda juga ingin menggunakan **Hadoop Common versi 3.2.2**, Anda dapat menggunakan perintah berikut ini: 
 
-  ```shell
-  $ wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.2/hadoop-common-3.2.2.jar
-  ```
+```shell  
+$ wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.2/hadoop-common-3.2.2.jar
+```
 - [x] Sudah mengunduh **_Jar Hadoop MapReduce Core_** pada link [**_di sini_**](https://https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core). *Pastikan Anda mengunduh versi **Jar** nya sesuai dengan versi **Hadoop** Anda*.
   - Bagi Anda user **Linux** dan Anda juga ingin menggunakan **Hadoop MapReduce Client Core versi 3.2.2**, Anda dapat menggunakan perintah berikut ini:
 
-  ```shell
-  $ wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.2/hadoop-mapreduce-client-core-3.2.2.jar
-  ```
+```shell
+$ wget https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.2/hadoop-mapreduce-client-core-3.2.2.jar
+```
 ![download-jar-hadoop-common-and-hadoop-mapreduce-core](https://user-images.githubusercontent.com/78311798/106408754-a78c3d80-6471-11eb-943f-c222bbb2961a.png)
 
 - [x] Sudah menyediakan sebuah dataset histori cuaca dari sebuah wilayah. Jika belum, Anda bisa mengunduhnya dari link NCDC NOAA berikut ini: [**_ftp://ftp.ncdc.noaa.gov/pub/data/uscrn/products/daily01/2021_**](ftp://ftp.ncdc.noaa.gov/pub/data/uscrn/products/daily01/2021/).
@@ -94,29 +97,28 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
       * Pertama, jalankan **`dfs`** dengan mengetikkan perintah :
       ```shell
       $ cd $HADOOP_HOME/sbin/
-      ```
-      ```shell
+  
       $ ./start-dfs.sh
       ```
 
-      * Dan yang kedua, jalankan **`yarn`** dengan mengetikkan perintah :
+      * Dan yang kedua, jalankan **`yarn`** dengan mengetikkan perintah:
       ```shell
       $ ./start-yarn.sh
       ```
 ![9-start-hadoop-daemons](https://user-images.githubusercontent.com/78311798/106544228-c2c28000-6539-11eb-9812-c1233cb1f968.PNG)
 
   - ### **Pindahkan File Dataset Anda ke Hadoop HDFS**
-      * Untuk memindahkan file dataset yang Anda punya, gunakan perintah di bawah ini :
+      * Untuk memindahkan file dataset yang Anda punya, gunakan perintah di bawah ini:
+
       ```shell
       $ hdfs dfs -put /path/to/dataset-file /destination/path
       ```
       Contoh :
-
       ```shell
-        $ hdfs dfs -put /home/hadoop/Documents/saas-project/aplikasi-big-data/palestine-dataset-20210130/CRND0103-2021-TX_Palestine_6_WNW.txt /user/hadoop/dataset/
+      $ hdfs dfs -put /home/hadoop/Documents/saas-project/aplikasi-big-data/palestine-dataset-20210130/CRND0103-2021-TX_Palestine_6_WNW.txt /user/hadoop/dataset/
       ```
 
-      * Untuk mengecek file dataset Anda sudah ada atau belum di dalam **Hadoop HDFS**, gunakan perinah di bawah ini :
+      * Untuk mengecek file dataset Anda sudah ada atau belum di dalam **Hadoop HDFS**, gunakan perinah di bawah ini:
       ```shell
       $ hdfs dfs -ls /user/hadoop/dataset/
       ```
