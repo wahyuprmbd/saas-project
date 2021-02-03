@@ -152,6 +152,12 @@ Setelah Anda menginstal IDE, JDK, dan Hadoopnya. Sekarang kita lanjut ke tahap d
 ![14-show-the-result-file](https://user-images.githubusercontent.com/78311798/106546287-7e38e380-653d-11eb-949d-9afce034a16c.PNG)
 
 ---------------------------------------------------
+## Our Project Demo Video
+
+**Anda dapat mengunduh video demo projek aplikasi ini melalui tautan di bawah ini:**
+[**`https://drive.google.com/file/d/1IB9kQsuAulpucppCvto1aYzRKUqKpUsT/view?usp=sharing`**](https://drive.google.com/file/d/1IB9kQsuAulpucppCvto1aYzRKUqKpUsT/view?usp=sharing)
+
+---------------------------------------------------
 ## Our Team
 
 ### **`Members of the group`**
