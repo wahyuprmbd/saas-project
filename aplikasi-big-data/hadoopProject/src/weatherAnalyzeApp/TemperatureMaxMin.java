@@ -77,7 +77,7 @@ public class TemperatureMaxMin {
 										new Text(String.valueOf(temp_Max))); 
 				} 
 
-				// jika suhu minimumnya kurang dari 50 derajat, 
+				// jika suhu minimumnya kurang dari 15 derajat, 
 				// maka hari tersebut sedang bercuaca dingin.
 				if (temp_Min < 15) { 
 					// Cuaca dingin 
